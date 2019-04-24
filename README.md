@@ -32,7 +32,9 @@ conda create -n <env_name> python=3.7
 # activate the python environment
 conda activate <env_name>
 # install pandoc, this package is required to run the setup.py
-pip install pandoc
+pip install pypandoc
+# create an README.md file
+touch README.md
 
 pip install -e .
 pip freeze | grep -v <package_name> > requirements.txt
