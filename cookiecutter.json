@@ -8,7 +8,7 @@
     "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "package_short_description": "Analysis of data",
     "package_license": ["MIT", "BSD", "ISCL", "Apache Software License 2.0", "Not open source"],
-    "pypi_username": "{{ cookiecutter.github_username }}",
+    "pypi_username": "{{ cookiecutter.author_github_account }}",
     "use_pytest": "n",
     "use_pypi_deployment_with_travis": "y",
     "create_author_file": "y"
