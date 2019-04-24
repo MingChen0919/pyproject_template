@@ -1,11 +1,15 @@
 {
-    "project_name": "PyProject_Template",
-    "package_name": "pyproject_template",
+    "full_name": "Ming Chen",
+    "email": "ming.chen0919@gmail.com",
+    "github_username": "MingChen",
+    "project_name": "Python Boilerplate",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "package_short_description": "Analysis of data",
     "project_url": "https://github.com/<github_account>/<repository_name>",
-    "package_version": "0.1",
-    "package_license": "...",
-    "author_name": "Ming Chen",
-    "author_email": "ming.chen0919@gmail.com",
-    "author_github_account": "MingChen0919"
+    "pypi_username": "{{ cookiecutter.github_username }}",
+    "version": "0.1.0",
+    "use_pytest": "n",
+    "use_pypi_deployment_with_travis": "y",
+    "create_author_file": "y",
+    "package_license": ["Not open source"]
 }
