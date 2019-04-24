@@ -3,7 +3,7 @@
     "email": "ming.chen0919@gmail.com",
     "github_username": "MingChen0919",
     "project_name": "Python Boilerplate",
-    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "package_short_description": "Analysis of data",
     "project_url": "https://github.com/<github_account>/<repository_name>",
     "pypi_username": "{{ cookiecutter.github_username }}",
@@ -11,5 +11,5 @@
     "use_pytest": "n",
     "use_pypi_deployment_with_travis": "y",
     "create_author_file": "y",
-    "package_license": ["Not open source"]
+    "package_license": ["MIT", "BSD", "ISCL", "Apache Software License 2.0", "Not open source"]
 }
