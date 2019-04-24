@@ -24,7 +24,12 @@ Create a virtual environment and install the package.
 
 ```bash
 cd <project_name>
-mkdirtualenv <project_name>
+
+# create a new python environment for this project
+conda create -n <env_name> python=3.7
+# activate the python environment
+conda activate <env_name>
+
 pip install -e .
 pip freeze | grep -v <package_name> > requirements.txt
 git init
