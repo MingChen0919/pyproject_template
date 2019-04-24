@@ -29,6 +29,8 @@ cd <project_name>
 conda create -n <env_name> python=3.7
 # activate the python environment
 conda activate <env_name>
+# install pandoc, this package is required to run the setup.py
+pip install pandoc
 
 pip install -e .
 pip freeze | grep -v <package_name> > requirements.txt
@@ -38,6 +40,13 @@ git commit -m "First commit"
 git remote add origin <remote_repository_url>.git
 git push -u origin master
 ```
+
+
+> To remove a conda environment:
+> ```bash
+> conda env remove --name <env_name>
+> ```
+
 
 Moreover, if you are planning to use the Jupyter Notebook, you have to install the kernel of the environment.
 
