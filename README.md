@@ -1,4 +1,4 @@
-**This Repository is modified from https://github.com/Satalia/production-data-science.**
+**This repository is modified from https://github.com/Satalia/production-data-science.**
 
 # Template
 

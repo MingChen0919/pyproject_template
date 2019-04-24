@@ -1,7 +1,7 @@
 {
     "full_name": "Ming Chen",
     "email": "ming.chen0919@gmail.com",
-    "github_username": "MingChen",
+    "github_username": "MingChen0919",
     "project_name": "Python Boilerplate",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "package_short_description": "Analysis of data",
